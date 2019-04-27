@@ -12,7 +12,7 @@ array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
   with_commas = []
-  array(0...-1).each do |string|
+  array.each do |string|
     with_commas.push "#{string}, "
   end
 if array.length < 2

@@ -6,6 +6,6 @@ array.pop
 elsif array.length == 2
 "#{array[0]} and #{array.pop}"
 elsif array.length == 3
-""
+
 end
 end

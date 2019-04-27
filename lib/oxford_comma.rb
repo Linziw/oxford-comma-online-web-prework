@@ -14,7 +14,7 @@ def oxford_comma(array)
   with_commas = []
   array.each do |string|
     with_commas.push "#{string}, "
-    with_commas
+    with_commasa[0..-3]
   end
 if array.length < 2
 array.pop

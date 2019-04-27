@@ -18,7 +18,7 @@ def oxford_comma(array)
 if array.length < 2
 array.pop
 if array.length = 2
-{array[0]} and #{array.pop}"
+"#{array[0]} and #{array.pop}"
 else 
   "#{with_commas[0..-2].join}and #{array.pop}"
 end

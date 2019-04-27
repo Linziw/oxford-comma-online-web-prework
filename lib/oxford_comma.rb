@@ -19,7 +19,7 @@ if array.length < 2
 array.pop
 else 
   with_commas[0..-3]
-  "#{with_commas.join} and #{array.pop}"
+  "#{with_commas[0..-].join} and #{array.pop}"
 end
 end
 

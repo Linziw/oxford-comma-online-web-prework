@@ -4,6 +4,6 @@ def oxford_comma(array)
 if array.length == 1
 array.pop
 elsif array.length == 2
-puts "#{array[0]} and #{array.pop}"
+puts "#{array[0]} and"
 end
 end
